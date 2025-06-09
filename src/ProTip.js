@@ -15,8 +15,8 @@ export default function ProTip() {
   return (
     <Typography sx={{ mt: 6, mb: 3, color: 'text.secondary' }}>
       <LightBulbIcon sx={{ mr: 1, verticalAlign: 'middle' }} />
-      {'Pro tip: Check us out at '}
-      <Link href="https://jobreadyprogrammer.com">jobreadyprogrammer.com</Link>
+      {'Pro tip: Check me out at '}
+      <a href="https://www.linkedin.com/in/-hari-krishnan-r/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </Typography>
   );
 }

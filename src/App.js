@@ -16,10 +16,7 @@ function Copyright() {
       }}
     >
       {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        JRP
-      </Link>{' '}
-      {new Date().getFullYear()}
+        Hari {new Date().getFullYear()}
       {'.'}
     </Typography>
   );
@@ -30,7 +27,7 @@ export default function App() {
     <Container maxWidth="sm">
       <Box sx={{ my: 4 }}>
         <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          Social Media AI Kit by Keerat
+          Social Media AI Kit by Hari
         </Typography>
 
         <SmartAi></SmartAi>
